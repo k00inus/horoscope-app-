@@ -1,0 +1,13 @@
+[build]
+command = "npm run build"
+publish = "dist"; package.json: "scripts": {
+"dev": "vite",
+"build": "vite build",
+"lint": "eslint .",
+"preview": "vite preview"
+}
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
