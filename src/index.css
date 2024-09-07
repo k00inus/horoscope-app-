@@ -1,0 +1,173 @@
+/* For mobile phones: */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #16161a;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-style: normal;
+    color: #fffffe;
+  }
+  html{
+    font-size: 16px;
+  }
+  header {
+    text-align: center;
+    padding: 2vh 1vh;
+    font-family: "Fruktur", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1{
+    font-size: 4rem;
+    margin-top: 2vh;
+  }
+  h2{
+    font-size: 3rem;
+    margin-top: 2vh;
+  }
+  input {
+    color: black;
+    width: 100%;
+    padding: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  select {
+    width: 100%;
+    padding: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+
+  ::placeholder {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  .form-section {
+    width: 80vw;
+    /* top and bottom | left and right */
+    margin: 1vh auto;
+  }
+  label {
+    font-size: 2rem;
+    color: #7f5af0;
+  }
+
+  em {
+    display: block;
+    min-height: 1vh;
+    font-size: large;
+    margin-bottom: 1vh;
+  }
+  button {
+    background-color: rgb(127, 90, 240, 0.3);
+    width: 100%;
+    display: block;
+    margin-top: 2rem;;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fffffe;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  body {
+    background-color: #004643;
+    font-family: "Poppins", sans-serif;
+    background: url(./assets/horoscope1.jpg) repeat;
+  }
+  main{
+    width: 60vw;
+    background-color: rgb(0, 70, 67, 0.9);
+    margin: 5% auto;
+    border-radius: 25px;
+    padding: 1rem;
+  }
+
+  header {
+    margin-top: 3%;
+    color: #fffffe;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 900;
+    font-style: normal;
+    font-size: x-large;
+  }
+  h1 {
+    padding: 2vh;
+  }
+  h2 {
+    margin-top: 2vh;
+  }
+  input {
+    color: black;
+    width: 100%;
+    padding: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+  .form-section {
+    width: 40vw;
+    /* top and bottom | left and right */
+    margin: 1vh auto;
+  }
+  select {
+    width: 100%;
+    padding: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+
+  ::placeholder {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+
+  label {
+    font-size: x-large;
+    color: #f9bc60;
+  }
+
+  em {
+    display: block;
+    min-height: 1vh;
+    font-size: large;
+    margin-bottom: 1vh;
+  }
+
+  button {
+    background-color: #f9bc60;
+    width: 180px;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #001e1d;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+}
